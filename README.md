@@ -26,5 +26,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-##Referrence
+## Referrence
 https://medium.com/@jkeung/integrating-google-maps-api-w-angular-7-e7672396ce2d
+
+## STEP
+1. npm install --save @types/googlemaps
+2. <script src="http://maps.googleapis.com/maps/api/js?key=API-KEY"></script>
+3. import {} from 'googlemaps';
+4. create a file called index.d.ts directly within your src directory and add the following line
+declare module 'googlemaps';
